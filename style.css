@@ -2,6 +2,25 @@
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(215, 249, 216);
+}
+
+body{
+    background-color: #222;
+}
+
+/* search icon */
+.fi-br-search{
+    color: aquamarine;
+}
+
+.card{
+    width: 90%;
+    max-width: 460px;
+    background: linear-gradient(120deg, rgb(117, 206, 212), rgb(126, 211, 126) );
+    border-radius: 1.2rem;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 2rem 1.5rem;
+
 
 }
