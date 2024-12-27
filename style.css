@@ -60,11 +60,13 @@ body{
 }
 
 .weather h1{
+    margin-top: -1rem;
     font-size: 75px;
     font-weight: 600;
 }
 
 .weather h2{
+    margin-top: -1rem;
     font-size: 45px;
     font-weight: 400;
 }
@@ -73,8 +75,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0 1rem;
+    padding: 0.5rem 0.8rem;
     margin-top: 1rem;
+    font-size: 0.8rem;
 }
 
 .sec{
@@ -86,4 +89,13 @@ body{
 .sec img{
     width: 2rem;
     margin-right: 0.5rem;
+}
+
+.wind, .humidity{
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.sec p{
+    color: aliceblue;
 }
